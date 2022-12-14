@@ -69,6 +69,14 @@ form.addEventListener("submit", e => {
          li.innerHTML = markup;
          list.appendChild(li);
        })
+       .catch(() => {
+        msg.textContent = "Please search for a valid city 😩";
+      });
+  
+    msg.textContent = "";
+    form.reset();
+    input.focus();
+  });
        
   
    
