@@ -8,5 +8,54 @@
   --darkred: #c3112d;
   --orange: #ff8c00;
 }
+* {
+  margin: 0;
+  color: l;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: normal;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+input {
+  -webkit-appearance: none;
+}
+
+button,
+input {
+  border: none;
+  background: none;
+  outline: none;
+  color: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font: 1rem/1.3 "Roboto", sans-serif;
+  color: var(--bg_main);
+  padding: 70px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('https://images.pexels.com/photos/163255/sunrise-sun-morgenrot-skies-163255.jpeg?cs=srgb&dl=pexels-pixabay-163255.jpg&fm=jpg');
+}
+
 
 
