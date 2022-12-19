@@ -1,0 +1,31 @@
+﻿PROJECT OWNER: Michelle Mungai
+PROJECT NAME: Simple Weather Application
+
+PROBLEM STATEMENT
+
+I discovered that users can get too busy at home or at work to even look up and check the current weather 
+conditions of where they are or where they might be heading to after work. 
+Furthermore, many of the free weather software programs have too many pop ups and unwanted software linked 
+to them causing bugs. 
+
+SOLUTION 
+
+Create a simple weather app that is meant to solve all these issues by having the application show weather in 
+real time and has no external sites linked to it.
+
+MVP 
+
+Landing page
+Login pop up page
+Sign up pop up page
+Weather display page
+
+API URL
+
+https://openweathermap.org/
+
+GITHUB LINK 
+
+https://github.com/Michelle-Mungai/Weather-Project
+
+
