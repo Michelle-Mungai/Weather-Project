@@ -1,9 +1,9 @@
 # My Weather Application
 
 ## Description
-This project is a web app named **Weather App**, a weather application that is used to display information to a user about the different weather conditons for the particular city that they search for. If the coty that they input is not a valid city it returns an error for them to select a valid city recognized by the weather api.\
+This project is a web app named **Weather App**, a weather application that is used to display information to a user about the different weather conditons for the particular city that they search for. If the coty that they input is not a valid city it returns an error for them to select a valid city recognized by the weather api.
 
-The app uses the OpenWeather api that acts as the applications database for the city weather conditions and details. The app uses an api key to be able to fetch the data from the api. An API is a set of programming code that enables data transmission between one software product and another.\
+The app uses the OpenWeather api that acts as the applications database for the city weather conditions and details. The app uses an api key to be able to fetch the data from the api. An API is a set of programming code that enables data transmission between one software product and another.
 
 ## Project Setup
 ### Getting Started
@@ -14,24 +14,29 @@ In order for you to use the content on this repo ensure you have the following:
 - The OpenWeather api key (Find how to get it below)
 
 ### Getting the api key
-1. Go to your browser and enter the open weather url;
-https://openweathermap.org/
-2. From there sign up or login if you are already a user
+1. Go to your browser and enter the open weather url:
+
+    https://openweathermap.org/
+
+2. From there sign up or login if you are already a user.
 3. Then select API from the navigation bar you will be directed to api section of the website.
 4. Select the first option Current Weather Data to get the api that shows the current weather of the cities, unless you want different data then you can select a different option
 5. To then get the api key, go to the dropdown where your profile is and select my api keys.
 6. You will get the api key generated, but it will take an hour before the data is fetched and displayed.
 7. Get back to step 4 and from the selection you chose select how you want to request:
-This is if you want to call using the city name
-https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
+* This is if you want to call using the city name;
 
-Calling using the city name and country code
-https://api.openweathermap.org/data/2.5/weather?q={city name},{country code}&appid={API key}
+    https://api.openweathermap.org/data/2.5/weather?q={cityname}&appid={APIkey}
 
-Calling using the city name, state code, and country code 
-https://api.openweathermap.org/data/2.5/weather?q={city name},{state code},{country code}&appid={API key}
+* Calling using the city name and country code;
 
-This enables you to get the weather data from the api
+    https://api.openweathermap.org/data/2.5/weather?q={cityname},{countrycode}&appid={APIkey}
+
+* Calling using the city name, state code, and country code;
+
+    https://api.openweathermap.org/data/2.5/weather?q={cityname},{statecode},{countrycode}&appid={APIkey}
+
+--> This enables you to get the weather data from the api.
 
 ### Installation of application
 
